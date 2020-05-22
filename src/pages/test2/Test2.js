@@ -1,6 +1,6 @@
 import React from 'react';
 
-class RPDF2 extends React.Component {
+class Test2 extends React.Component {
   
   constructor(){
     super();
@@ -15,17 +15,10 @@ class RPDF2 extends React.Component {
   render() {
     return (
       <div className="content">
-        <iframe 
-          id="theFrame" 
-          src="https://www.eurofound.europa.eu/sites/default/files/ef_publication/field_ef_document/ef1710en.pdf" 
-          height="300" 
-          width="300"
-          ref={this.iframeElement} 
-        >
-        </iframe>
+        
       </div>
     );
   }
 }
 
-export default RPDF2;
+export default Test2;

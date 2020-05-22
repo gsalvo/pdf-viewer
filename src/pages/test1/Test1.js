@@ -1,6 +1,6 @@
 import React from 'react';
 
-function RPDF1() {
+function Test1() {
   return (
     <div className="content">
       <p>rpdf1</p>
@@ -8,4 +8,4 @@ function RPDF1() {
   );
 }
 
-export default RPDF1;
+export default Test1;
